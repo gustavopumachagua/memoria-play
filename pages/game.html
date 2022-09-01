@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/icono.png">
+  <link rel="apple-touch-icon" href="../assets/icono.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/css/styles.css">
+  <link rel="stylesheet" href="../src/css/game.css">
+  <title>Game</title>
+</head>
+
+<body>
+  <div id="cargando">
+    <img class="rotate" src="../assets/portal.png" alt="portal">
+    <p>Loading...</p>
+  </div>
+  <div id="game"></div>
+  <div class="info-game">
+    <div id="movimientos">Movimientos: 0</div>
+    <div id="tiempo">00:00</div>
+    <button class="noSelect" onclick="iniciar.juegoNuevo()">
+      Juegar
+    </button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="../src/js/index.js"></script>
+</body>
+
+</html>
